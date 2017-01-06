@@ -13,6 +13,8 @@
 		6D40B6471E0D2F09008DED6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D40B6461E0D2F09008DED6D /* Assets.xcassets */; };
 		6D40B64A1E0D2F09008DED6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D40B6481E0D2F09008DED6D /* LaunchScreen.storyboard */; };
 		6D40B6521E0D4866008DED6D /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D40B6511E0D4866008DED6D /* UserInfo.swift */; };
+		6DD3D2CF1E1FB6AC004E19AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6DD3D2D11E1FB6AC004E19AF /* InfoPlist.strings */; };
+		6DD3D2D41E1FB6AC004E19AF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6DD3D2D61E1FB6AC004E19AF /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,14 @@
 		6D40B6491E0D2F09008DED6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D40B64B1E0D2F09008DED6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D40B6511E0D4866008DED6D /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		6DD3D2C91E1FB168004E19AF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		6DD3D2CA1E1FB168004E19AF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		6DD3D2CB1E1FB172004E19AF /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		6DD3D2CC1E1FB172004E19AF /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		6DD3D2D01E1FB6AC004E19AF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		6DD3D2D51E1FB6AC004E19AF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		6DD3D2D71E1FB849004E19AF /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6DD3D2D81E1FB84A004E19AF /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +66,15 @@
 		6D40B63E1E0D2F09008DED6D /* iAutolayout */ = {
 			isa = PBXGroup;
 			children = (
+				6DD3D2D61E1FB6AC004E19AF /* Localizable.strings */,
+				6DD3D2D11E1FB6AC004E19AF /* InfoPlist.strings */,
 				6D40B63F1E0D2F09008DED6D /* AppDelegate.swift */,
 				6D40B6411E0D2F09008DED6D /* ViewController.swift */,
+				6D40B6511E0D4866008DED6D /* UserInfo.swift */,
 				6D40B6431E0D2F09008DED6D /* Main.storyboard */,
 				6D40B6461E0D2F09008DED6D /* Assets.xcassets */,
 				6D40B6481E0D2F09008DED6D /* LaunchScreen.storyboard */,
 				6D40B64B1E0D2F09008DED6D /* Info.plist */,
-				6D40B6511E0D4866008DED6D /* UserInfo.swift */,
 			);
 			path = iAutolayout;
 			sourceTree = "<group>";
@@ -126,7 +138,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DD3D2D41E1FB6AC004E19AF /* Localizable.strings in Resources */,
 				6D40B64A1E0D2F09008DED6D /* LaunchScreen.storyboard in Resources */,
+				6DD3D2CF1E1FB6AC004E19AF /* InfoPlist.strings in Resources */,
 				6D40B6471E0D2F09008DED6D /* Assets.xcassets in Resources */,
 				6D40B6451E0D2F09008DED6D /* Main.storyboard in Resources */,
 			);
@@ -152,6 +166,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				6D40B6441E0D2F09008DED6D /* Base */,
+				6DD3D2C91E1FB168004E19AF /* zh-Hans */,
+				6DD3D2CB1E1FB172004E19AF /* ar */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -160,8 +176,28 @@
 			isa = PBXVariantGroup;
 			children = (
 				6D40B6491E0D2F09008DED6D /* Base */,
+				6DD3D2CA1E1FB168004E19AF /* zh-Hans */,
+				6DD3D2CC1E1FB172004E19AF /* ar */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6DD3D2D11E1FB6AC004E19AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DD3D2D01E1FB6AC004E19AF /* zh-Hans */,
+				6DD3D2D71E1FB849004E19AF /* ar */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6DD3D2D61E1FB6AC004E19AF /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DD3D2D51E1FB6AC004E19AF /* zh-Hans */,
+				6DD3D2D81E1FB84A004E19AF /* ar */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

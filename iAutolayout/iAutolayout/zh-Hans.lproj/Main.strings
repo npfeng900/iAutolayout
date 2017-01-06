@@ -1,0 +1,21 @@
+/* Class = "UIButton"; normalTitle = "Change Security"; ObjectID = "BiJ-PC-wbw"; */
+"BiJ-PC-wbw.normalTitle" = "更改安全类型";
+
+/* Class = "UILabel"; text = "Company"; ObjectID = "C3z-lt-ztl"; */
+"C3z-lt-ztl.text" = "公司";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "N5a-Yh-vx7"; */
+"N5a-Yh-vx7.text" = "姓名";
+
+/* Class = "UILabel"; text = "Username"; ObjectID = "czn-3r-2Ow"; */
+"czn-3r-2Ow.text" = "用户名";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "d2E-dC-DgP"; */
+"d2E-dC-DgP.text" = "密码";
+
+/* Class = "UILabel"; text = "LastLoginInfo"; ObjectID = "qg2-UX-vo0"; */
+"qg2-UX-vo0.text" = "最后登陆信息";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "tN2-1m-tfF"; */
+"tN2-1m-tfF.normalTitle" = "登陆";
+

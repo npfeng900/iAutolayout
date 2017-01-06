@@ -10,10 +10,16 @@ import Foundation
 
 struct User {
     
-    let name: String
-    let company: String
     let login: String
     let password: String
+    let name: String
+    let company: String
+    let lastLoginTime: NSDate = {
+        let formatter = NSDateFormatter()
+        formatter.timeZone = NSTimeZone(forSecondsFromGMT: +8 * 60 * 60)
+        formatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
+        return  formatter.dateFromString("2017-1-4 01:30:45")!
+    }()
     
     static func login(login: String, password: String) -> User? {
         if let user = database[login] {
@@ -24,14 +30,14 @@ struct User {
         return nil
     }
     
+    // DataBase
     static let database: Dictionary<String, User> = {
         var theDatabase = Dictionary<String, User>()
         for user in [
-            User(name: "Zhou Hongyi", company: "Qihoo 360 Co Ltd", login: "360", password: "foo"),
-            User(name: "Pan Jinlian", company: "Jinlian International", login: "lichunyuan", password: "foo"),
-            User(name: "Indra Nooyi", company: "Pepsi Company International", login: "pepsi", password: "foo"),
-            User(name: "Eric Emerson Schmidt", company: "Google Company International ", login: "google", password: "foo")
-            ]
+            User(login: "360", password: "foo", name: "Zhou Hongyi", company: "Qihoo 360 Co Ltd"),
+            User(login: "beauty", password: "foo", name: "Beauty Lover", company: "Beauty International"),
+            User(login: "pepsi", password: "foo", name: "Indra Nooyi", company: "Pepsi Company International"),
+            User(login: "google", password: "foo", name: "Eric Emerson Schmidt", company: "Google Company International") ]
         {
            theDatabase[user.login] = user
         }
@@ -39,3 +45,4 @@ struct User {
     }()
     
 }
+

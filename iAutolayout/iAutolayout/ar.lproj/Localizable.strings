@@ -1,0 +1,18 @@
+/* Message in an alert when the user types in an incorrect user name or password */
+"Invalid user name or password" = "اسم المستخدم أو كلمة المرور غير صالحة";
+
+/* Report the number of days ago and time that the user last logged in */
+"Last Login %@ days ago at %@" = "اخر دخو %1$@ قبل أيام  %2$@ على";
+
+/* Title of alert when user types in an incorrect user name or password */
+"Login Error" = "خطأ في تسجيل الدخول";
+
+/* Prompt for the user's password when no secure */
+"Password" = "كلمة السر";
+
+/* Prompt for the user's obscured password */
+"Secured Password" = "كلمة السر المضمونة";
+
+/* The only button available in an alert presented when the user types in an incorrect user name or password */
+"Try Again" = "حاول مرة أخرى";
+
