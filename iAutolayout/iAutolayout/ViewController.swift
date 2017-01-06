@@ -136,7 +136,7 @@ class ViewController: UIViewController {
     }
     
 
-    // MARK: - newImage
+    // MARK: - newImage !!!
     //newImage(属性观测器会自动生成约束)
     var newImage: UIImage? {
         get {
